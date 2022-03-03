@@ -1,0 +1,78 @@
+Script started on 2022-02-18 12:36:06+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="126" LINES="27"]
+]0;harsh@harsh-Inspiron-15-7000-Gaming: ~/Desktop/pro/patient/app/server[01;32mharsh@harsh-Inspiron-15-7000-Gaming[00m:[01;34m~/Desktop/pro/patient/app/server[00m$ ls
+addHosp3.js               enrollAdmin-Hospital3.js  [0m[01;34mnode_modules[0m  package-lock.json  [01;34msrc[0m
+enrollAdmin-Hospital1.js  initDoctors.json          output.txt    registerUser.js    utils.js
+enrollAdmin-Hospital2.js  initServer.js             package.json  rest_calls.http
+]0;harsh@harsh-Inspiron-15-7000-Gaming: ~/Desktop/pro/patient/app/server[01;32mharsh@harsh-Inspiron-15-7000-Gaming[00m:[01;34m~/Desktop/pro/patient/app/server[00m$ npm start
+
+> patient-application@1.0.0 prestart
+> node initServer.js
+
+Loaded the network configuration located at /home/harsh/Desktop/pro/patient/app/first-network/organizations/peerOrganizations/hosp1.coep.com/connection-hosp1.json
+Built a CA Client named ca-hosp1
+Built a file system wallet at /home/harsh/Desktop/pro/patient/app/patient-asset-transfer/application-javascript/wallet
+An identity for the admin user already exists in the wallet
+msg: Successfully enrolled admin user hosp1admin and imported it into the wallet
+Loaded the network configuration located at /home/harsh/Desktop/pro/patient/app/first-network/organizations/peerOrganizations/hosp2.coep.com/connection-hosp2.json
+Built a CA Client named ca-hosp2
+Built a file system wallet at /home/harsh/Desktop/pro/patient/app/patient-asset-transfer/application-javascript/wallet
+An identity for the admin user already exists in the wallet
+msg: Successfully enrolled admin user hosp2admin and imported it into the wallet
+Built a file system wallet at /home/harsh/Desktop/pro/patient/app/patient-asset-transfer/application-javascript/wallet
+Loaded the network configuration located at /home/harsh/Desktop/pro/patient/app/first-network/organizations/peerOrganizations/hosp1.coep.com/connection-hosp1.json
+Built a CA Client named ca-hosp1
+An identity for the user PID0 already exists in the wallet
+Failed to register user PID0 : Error: An identity for the user PID0 already exists in the wallet
+Failed to register user "PID0": Error: Failed to register user PID0
+]0;harsh@harsh-Inspiron-15-7000-Gaming: ~/Desktop/pro/patient/app/server[01;32mharsh@harsh-Inspiron-15-7000-Gaming[00m:[01;34m~/Desktop/pro/patient/app/server[00m$ cd ..
+]0;harsh@harsh-Inspiron-15-7000-Gaming: ~/Desktop/pro/patient/app[01;32mharsh@harsh-Inspiron-15-7000-Gaming[00m:[01;34m~/Desktop/pro/patient/app[00m$ ls
+[0m[01;34masset-transfer-basic[0m              [01;34mbin[0m                 [01;34mcommercial-paper[0m     LICENSE                 SECURITY.md
+[01;34masset-transfer-events[0m             [01;34mchaincode[0m           [01;34mconfig[0m               MAINTAINERS.md          [01;34mserver[0m
+[01;34masset-transfer-ledger-queries[0m     CHANGELOG.md        CONTRIBUTING.md      [01;34moff_chain_data[0m          [01;34mtest-application[0m
+[01;34masset-transfer-private-data[0m       [01;34mci[0m                  [01;34mfabcar[0m               [01;34mpatient-asset-transfer[0m  [01;34mtest-network[0m
+[01;34masset-transfer-sbe[0m                [01;34mclient[0m              [01;34mfirst-network[0m        [01;34mprivate-collections[0m     [01;34mtoken-erc-20[0m
+[01;34masset-transfer-secured-agreement[0m  CODE_OF_CONDUCT.md  [01;34mhigh-throughput[0m      README.md               [01;34mtoken-utxo[0m
+[01;34mauction[0m                           CODEOWNERS          [01;34minterest_rate_swaps[0m  [01;34mscripts[0m
+]0;harsh@harsh-Inspiron-15-7000-Gaming: ~/Desktop/pro/patient/app[01;32mharsh@harsh-Inspiron-15-7000-Gaming[00m:[01;34m~/Desktop/pro/patient/app[00m$ cd network.[K[K[K[K[K[K[K[Kfor[K[Kirst-network.sh
+bash: cd: first-network.sh: No such file or directory
+]0;harsh@harsh-Inspiron-15-7000-Gaming: ~/Desktop/pro/patient/app[01;32mharsh@harsh-Inspiron-15-7000-Gaming[00m:[01;34m~/Desktop/pro/patient/app[00m$ ls
+[0m[01;34masset-transfer-basic[0m              [01;34mbin[0m                 [01;34mcommercial-paper[0m     LICENSE                 SECURITY.md
+[01;34masset-transfer-events[0m             [01;34mchaincode[0m           [01;34mconfig[0m               MAINTAINERS.md          [01;34mserver[0m
+[01;34masset-transfer-ledger-queries[0m     CHANGELOG.md        CONTRIBUTING.md      [01;34moff_chain_data[0m          [01;34mtest-application[0m
+[01;34masset-transfer-private-data[0m       [01;34mci[0m                  [01;34mfabcar[0m               [01;34mpatient-asset-transfer[0m  [01;34mtest-network[0m
+[01;34masset-transfer-sbe[0m                [01;34mclient[0m              [01;34mfirst-network[0m        [01;34mprivate-collections[0m     [01;34mtoken-erc-20[0m
+[01;34masset-transfer-secured-agreement[0m  CODE_OF_CONDUCT.md  [01;34mhigh-throughput[0m      README.md               [01;34mtoken-utxo[0m
+[01;34mauction[0m                           CODEOWNERS          [01;34minterest_rate_swaps[0m  [01;34mscripts[0m
+]0;harsh@harsh-Inspiron-15-7000-Gaming: ~/Desktop/pro/patient/app[01;32mharsh@harsh-Inspiron-15-7000-Gaming[00m:[01;34m~/Desktop/pro/patient/app[00m$ cd [1Plscd first-network.sh[K[K[K
+]0;harsh@harsh-Inspiron-15-7000-Gaming: ~/Desktop/pro/patient/app/first-network[01;32mharsh@harsh-Inspiron-15-7000-Gaming[00m:[01;34m~/Desktop/pro/patient/app/first-network[00m$ s[Kls
+[0m[01;34maddHosp3[0m           [01;34mconfigtx[0m  log.txt     [01;34morganizations[0m   [01;34mReadMe-Img[0m  [01;34mscripts[0m         [01;34msystem-genesis-block[0m
+[01;34mchannel-artifacts[0m  [01;34mdocker[0m    [01;32mnetwork.sh[0m  [01;31mpatient.tar.gz[0m  README.md   [01;32mscriptUtils.sh[0m
+]0;harsh@harsh-Inspiron-15-7000-Gaming: ~/Desktop/pro/patient/app/first-network[01;32mharsh@harsh-Inspiron-15-7000-Gaming[00m:[01;34m~/Desktop/pro/patient/app/first-network[00m$ ./network.sh down
+[0;34mStopping network[0m
+Stopping redis.hosp3.coep.com   ...
+Stopping redis.hosp2.coep.com   ...
+Stopping redis.hosp1.coep.com   ...
+Stopping peer0.hosp1.coep.com   ...
+Stopping peer0.hosp2.coep.com   ...
+Stopping orderer.coep.com       ...
+Stopping couchdb.hosp2.coep.com ...
+Stopping couchdb.hosp1.coep.com ...
+Stopping ca_hosp1                  ...
+Stopping ca_hosp2                  ...
+Stopping ca_orderer                ...
+[1A[2KStopping ca_orderer                ... [32mdone[0m[1B[6A[2KStopping orderer.coep.com       ... [32mdone[0m[6B[3A[2KStopping ca_hosp1                  ... [32mdone[0m[3B[9A[2KStopping redis.hosp1.coep.com   ... [32mdone[0m[9B[2A[2KStopping ca_hosp2                  ... [32mdone[0m[2B[11A[2KStopping redis.hosp3.coep.com   ... [32mdone[0m[11B[10A[2KStopping redis.hosp2.coep.com   ... [32mdone[0m[10B[8A[2KStopping peer0.hosp1.coep.com   ... [32mdone[0m[8B[7A[2KStopping peer0.hosp2.coep.com   ... [32mdone[0m[7B[4A[2KStopping couchdb.hosp1.coep.com ... [32mdone[0m[4B[5A[2KStopping couchdb.hosp2.coep.com ... [32mdone[0m[5BRemoving orphan container "peer0.hosp3.coep.com"
+Removing orphan container "ca_hosp3"
+Removing orphan container "couchdb.hosp3.coep.com"
+Removing orphan container "Hosp3cli"
+Removing redis.hosp3.coep.com   ...
+Removing redis.hosp2.coep.com   ...
+Removing redis.hosp1.coep.com   ...
+Removing peer0.hosp1.coep.com   ...
+Removing peer0.hosp2.coep.com   ...
+Removing orderer.coep.com       ...
+Removing couchdb.hosp2.coep.com ...
+Removing couchdb.hosp1.coep.com ...
+Removing ca_hosp1                  ...
+Removing ca_hosp2                  ...
+Removing ca_orderer                ...
+[1A[2KRemoving ca_orderer                ... [32mdone[0m[1B[10A[2KRemoving redis.hosp2.coep.com   ... [32mdone[0m[10B[3A[2KRemoving ca_hosp1

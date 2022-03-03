@@ -1,0 +1,26 @@
+[
+    {
+        "hospitalId": "1",
+        "firstName": "Salman",
+        "lastName": "Hossein",
+        "speciality": "Neurosurgery"
+    },
+    {
+        "hospitalId": "2",
+        "firstName": "Akash",
+        "lastName": "Bhatt",
+        "speciality": "Cardiology"
+    },
+    {
+        "hospitalId": "1",
+        "firstName": "Kamlesh",
+        "lastName": "Prabhakar",
+        "speciality": "Cardiology"
+    },
+    {
+        "hospitalId": "2",
+        "firstName": "Jatin",
+        "lastName": "Kapoor",
+        "speciality": "Neurosurgery"
+    }
+]
