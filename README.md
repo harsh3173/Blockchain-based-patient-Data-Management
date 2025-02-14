@@ -21,3 +21,5 @@ Doctor | HOSP1-DOC0 | password
 Doctor | HOSP2-DOC1 | password
 Doctor | HOSP1-DOC2 | password
 Doctor | HOSP2-DOC3 | password
+
+[Presentation](images/presentation/doc.pdf)
